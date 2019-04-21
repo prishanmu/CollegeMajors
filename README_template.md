@@ -1,20 +1,20 @@
-# Project Title
+# College Majors
 
-Name
+Priyanka Shanmugasundaram
 
-[Link to this repository](https://www.example.com)
+https://github.com/prishanmu/CollegeMajors
 
 ---
 
 ## Project Description
 
-This should be a brief description of what your project is and does.  
+This project is a Flask app that visualizes unemployment rates based on college major and major types for recent grads and grads of all ages.  
 
 ## How to run
 
-1. First, you should ... (e.g. install all requirements with `pip install -r requirements.txt`)
-2. Second, you should ... (e.g. run `python programname.py runserver` or whatever else is appropriate)
-3. Anything else
+1. install all requirements with `pip install -r requirements.txt`
+2. then you should run with `python collegemajors.py runserver`
+3. follow the Flask app routes as written below to get to each page
 
 ## How to use
 
@@ -35,28 +35,29 @@ This should be a brief description of what your project is and does.
 NOTE: Need not have 3 steps, but should have as many as are appropriate!
 
 ## In this repository:
-- Directory Name
-  - File in directory
-  - File in directory
-- File name
-- File name
+- CollegeMajors
+  - all-ages.csv
+  - recent-grads.csv
+- collegemajors.py
+- SI507project_tools.py
+- SI507project_tests.py
 
 ---
 ## Code Requirements for Grading
 Please check the requirements you have accomplished in your code as demonstrated.
-- [x] This is a completed requirement.
-- [ ] This is an incomplete requirement.
+- [ ] This is a completed requirement.
+- [X] This is an incomplete requirement.
 
 Below is a list of the requirements listed in the rubric for you to copy and paste.  See rubric on Canvas for more details.
 
 ### General
-- [ ] Project is submitted as a Github repository
+- [X] Project is submitted as a Github repository
 - [ ] Project includes a working Flask application that runs locally on a computer
-- [ ] Project includes at least 1 test suite file with reasonable tests in it.
+- [X] Project includes at least 1 test suite file with reasonable tests in it.
 - [ ] Includes a `requirements.txt` file containing all required modules to run program
-- [ ] Includes a clear and readable README.md that follows this template
+- [X] Includes a clear and readable README.md that follows this template
 - [ ] Includes a sample .sqlite/.db file
-- [ ] Includes a diagram of your database schema
+- [X] Includes a diagram of your database schema
 - [ ] Includes EVERY file needed in order to run the project
 - [ ] Includes screenshots and/or clear descriptions of what your project should look like when it is working
 
@@ -83,5 +84,5 @@ Below is a list of the requirements listed in the rubric for you to copy and pas
 - [ ] Caching of data you continually retrieve from the internet in some way
 
 ### Submission
-- [ ] I included a link to my GitHub repository with the correct permissions on Canvas! (Did you though? Did you actually? Are you sure you didn't forget?)
+- [X] I included a link to my GitHub repository with the correct permissions on Canvas! (Did you though? Did you actually? Are you sure you didn't forget?)
 - [ ] I included a summary of my project and how I thought it went **in my Canvas submission**!
